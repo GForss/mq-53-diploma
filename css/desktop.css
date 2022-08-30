@@ -83,7 +83,7 @@ h1 {
 }
 .container-cap {
     margin-top: 28px;
-    min-width: 1200px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -201,7 +201,7 @@ h1 {
 .flex-width {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    width: 1200px;
 }
 .big-news {
     max-width: 760px;

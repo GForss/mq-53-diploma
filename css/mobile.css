@@ -1,0 +1,83 @@
+@media (min-width: 360px) and (max-width: 640px) {
+    .list-menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .header {
+        background-image: url("/img/banner-mobile.jpg");
+        height: 640px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .title-h1 {
+        width: 280px;
+        height: 91px;
+        margin-top: 40px;
+    }
+    .photo-trends {
+        flex-direction: column;
+    }
+    .photo-trend {
+        width: 100%;
+        margin-top: 4px;
+    }
+    .flex-width {
+        flex-direction: column;
+    }
+    .big-news {
+        flex-direction: column;
+        margin-left: 16px;
+        max-width: 330px;
+    }
+    .big-photo {
+        min-width: 330px;
+    }
+    .field {
+        width: 260px;
+    }
+    .email-address {
+        width: 310px;
+    }
+    .subscribe {
+        width: 330px;
+    }
+    .product {
+        flex-direction: column;
+        width: auto;
+    }
+    .product-cart {
+        margin-top: 26px;
+    }
+    .content {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    aside {
+        margin-left: 16px;
+        min-width: 330px;
+    }
+    .container-cap {
+        width: 270px;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .logo {
+        width: 270px;
+        height: 60px;
+        margin-top: 235px;
+    }
+    .text-news {
+        border-bottom: 3px solid #f4f7f6;
+      }
+
+
+
+
+
+
+   
+
+}
