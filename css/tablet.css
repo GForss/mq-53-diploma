@@ -1,6 +1,6 @@
 @media (min-width: 641px) and (max-width: 1200px) {
     .header {
-        background-image: url("/img/banner-bg-tablet.jpg");
+        background-image: url("../img/banner-bg-tablet.jpg");
     }
     .container-cap{
     min-width: 700px;

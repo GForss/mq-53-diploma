@@ -26,7 +26,7 @@ body {
 }
 .header {
     position: relative;
-    background-image: url("/img/banner-bg.jpg");
+    background-image: url("../img/banner-bg.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,16 +129,16 @@ h1 {
     margin-left: 4px;
 }**/
 .photo-one {
-    background-image: url("/img/trend1.jpg");
+    background-image: url("../img/trend1.jpg");
 }
 .photo-two {
-    background-image: url("/img/trend2.jpg");
+    background-image: url("../img/trend2.jpg");
 }
 .photo-three {
-    background-image: url("/img/trend3.jpg");
+    background-image: url("../img/trend3.jpg");
 }
 .photo-four {
-    background-image: url("/img/trend4.jpg");
+    background-image: url("../img/trend4.jpg");
 }
 .photo-trend::after {
     content: "";
@@ -315,7 +315,7 @@ aside {
     height: 48px;
     border: 0;
     background-color: #b59f5b;
-    background-image: url("/svg/search.svg");
+    background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
@@ -391,6 +391,7 @@ aside {
 .lists-of-topics {
     list-style: none;
     padding: 0;
+    border-bottom: 1px solid #eeeeee;
 }
 .hover-color {
     color: #000000;
@@ -411,9 +412,6 @@ aside {
 }
 .themes {
     margin-top: 60px;
-}
-.list-of-topics {
-  border-bottom: 1px solid #eeeeee;
 }
 .goods {
     margin-top: 64px;
