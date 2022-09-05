@@ -37,10 +37,13 @@
         min-width: 95%;
     }
     .field {
-        width: 90%;
+        width: 100%;
+    }
+    .search {
+        width: 95%;
     }
     .email-address {
-        width: 95%;
+        width: 91.7%;
     }
     .subscribe {
         width: 95%;
@@ -61,6 +64,12 @@
         margin-left: 16px;
         min-width: 95%;
         margin-top: 44px;
+    }
+    .list-tegs {
+        margin-right: 39px;
+    }
+    .list-of-tags {
+        justify-content: space-evenly;
     }
     .container-cap {
         width: 270px;
