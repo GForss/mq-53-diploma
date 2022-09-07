@@ -48,8 +48,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         width: 700px;
-        padding: 20px;
-        margin: 5px;
+        padding: 25px;
     }
     .product-cart {
         margin-top: 25px;
@@ -66,6 +65,7 @@
     }
     .flex-width {
       width: 100%;
+      justify-content: center;
     }
     .main {
       width: 100%;
