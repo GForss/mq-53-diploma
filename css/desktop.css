@@ -444,7 +444,18 @@ aside {
     width: 300px;
     min-height: 204px;
 }
-.photo-cart {
+.photo-cart-one {
+    background-image: url(../img/shop-item-desk1.jpg) ;
+    min-width: 300px;
+    min-height: 204px;
+}
+.photo-cart-two {
+    background-image: url(../img/shop-item-desk2.jpg) ;
+    min-width: 300px;
+    min-height: 204px;
+}
+.photo-cart-three {
+    background-image: url(../img/shop-item-desk3.jpg) ;
     min-width: 300px;
     min-height: 204px;
 }

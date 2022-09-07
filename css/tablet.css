@@ -53,6 +53,7 @@
     }
     .product-cart {
         margin-top: 25px;
+        width: 272px;
     }
     .social-links {
         width: 700px;
@@ -72,6 +73,27 @@
     .flex-box {
       width: 55%;
     }
+    .photo-cart-one {
+      background-image: url(../img/shop-item-tablet1.jpg) ;
+      background-repeat: no-repeat;
+      min-width: 260px;
+  }
+  .photo-cart-two {
+      background-image: url(../img/shop-item-tablet2.jpg) ;
+      background-repeat: no-repeat;
+      min-width: 260px;
+  }
+  .photo-cart-three {
+      background-image: url(../img/shop-item-tablet3.jpg) ;
+      background-repeat: no-repeat;
+      min-width: 260px;
+  }
+  .description-text {
+      font-size: 15px;
+  }
+  .description-product {
+      width: 292px;
+  }
     
     
 
