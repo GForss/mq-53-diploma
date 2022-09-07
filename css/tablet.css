@@ -47,7 +47,9 @@
     .product {
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 100%;
+        width: 700px;
+        padding: 20px;
+        margin: 5px;
     }
     .product-cart {
         margin-top: 25px;
