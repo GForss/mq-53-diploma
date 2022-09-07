@@ -3,7 +3,7 @@
         background-image: url("../img/banner-bg-tablet.jpg");
     }
     .container-cap{
-    min-width: 700px;
+    width: 97%;
     }
     .list-menu {
         display: none;
@@ -47,7 +47,7 @@
     .product {
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 700px;
+        width: 100%;
     }
     .product-cart {
         margin-top: 25px;
@@ -63,6 +63,12 @@
     }
     .flex-width {
       width: 100%;
+    }
+    .main {
+      width: 100%;
+    }
+    .flex-box {
+      width: 55%;
     }
     
     

@@ -310,7 +310,7 @@ aside {
     display: flex;
 }
 .field {
-    width: 200px;
+    width: 100%;
     height: 46px;
     border: 0;
     background-color: #f4f7f6;
@@ -408,6 +408,8 @@ aside {
 .lists-of-topics {
     list-style: none;
     padding: 0;
+}
+.list-of-topics {
     border-bottom: 1px solid #eeeeee;
 }
 .hover-color {
