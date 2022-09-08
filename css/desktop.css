@@ -310,7 +310,7 @@ aside {
     display: flex;
 }
 .field {
-    width: 100%;
+    width: calc(100% - 18px);
     height: 46px;
     border: 0;
     background-color: #f4f7f6;
@@ -319,7 +319,7 @@ aside {
     padding-left: 18px;
 }
 .field:focus {
-    -webkit-outline: none;
+    outline: none;
     border-bottom: 1px solid #b59f5b;
 }
 .button-search {
@@ -358,7 +358,7 @@ aside {
     padding-left: 18px;
   }
 .email-address:focus {
-    -webkit-outline: none;
+    outline: none;
     border-bottom: 1px solid #b59f5b;
 }
 .subscribe {
@@ -497,9 +497,13 @@ aside {
     background-color: #b59f5b;
     border: 0;
     font-family: OpenSans-Bold, sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .shop:hover {
     cursor: pointer;
@@ -512,6 +516,7 @@ aside {
 .cost {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
 }
 .line-through {
     margin: 0;
@@ -523,6 +528,7 @@ aside {
 .flex-end {
     display: flex;
     align-items: flex-end;
+    font-weight: bold;
 }
 .social-links {
     margin-top: 64px;

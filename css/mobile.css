@@ -66,10 +66,10 @@
         margin-top: 44px;
     }
     .list-tegs {
-        margin-right: 39px;
+        margin-right: 5px;
     }
     .list-of-tags {
-        justify-content: space-evenly;
+        /**justify-content: space-evenly;**/
     }
     .container-cap {
         width: 270px;
@@ -87,7 +87,7 @@
     .social-links {
          width: 95%;
     }.border {
-        margin: 14px 185px 28px;
+        margin: 14px 45% 28px;
     }
     .border-trend {
         margin: 14px 40%;

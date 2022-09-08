@@ -26,7 +26,6 @@
     }
     .title-trend {
         font-size: 17px;
-        width: 460px;
     }
     .photo-trend:nth-child(n+1){
         margin-top: 4px;
@@ -94,6 +93,9 @@
   }
   .description-product {
       width: 292px;
+  }
+  .teg-title {
+    width: 100%;
   }
     
     
