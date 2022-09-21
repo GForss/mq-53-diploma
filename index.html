@@ -103,9 +103,9 @@
     </section>
 
 
-    <main class="main">
+    <div class="main">
         <div class="flex-width">
-        <div class="flex-box">
+        <main class="flex-box">
         <div class="big-news">
             <img class="big-photo" src="img/last-post1.jpg" alt="фото новости">
         <div class="content">
@@ -192,7 +192,7 @@
         </div>
     </div>
     </div>
-</div>
+</main>
 
 
 <aside>
@@ -253,7 +253,9 @@
         <input type="text" class="field" name="query" placeholder="Найти...">
         <span class="visually-hidden">поиск</span>
         </label>
-        <button class="button-search"></button>
+        <button class="button-search">
+            <span class="visually-hidden">подписаться</span>
+        </button>
       </form>
        
       <div class="title-mailing">
@@ -295,19 +297,19 @@
       </div>
       <div class="list-index">
         <ul class="lists-of-topics">
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Красота</a><span class="sup">12</span></p></li>
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Здоровье</a><span class="sup">4</span></p></li>
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Образ жизни</a><span class="sup">145</span></p></li>
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Музыка</a><span class="sup">28</span></p></li>
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Спорт</a><span class="sup">62</span></p></li>
-        <li class="list-of-topics"><p><a class="hover-color" href="#">Йога</a><span class="sup">8</span></p></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Красота</a><span class="sup">12</span></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Здоровье</a><span class="sup">4</span></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Образ жизни</a><span class="sup">145</span></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Музыка</a><span class="sup">28</span></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Спорт</a><span class="sup">62</span></li>
+        <li class="list-of-topics"><a class="hover-color" href="#">Йога</a><span class="sup">8</span></li>
       </ul>
     </div>
 
 </div>
 </aside>
 </div>
-    </main>
+    </div>
 
 
 <section class="goods">
@@ -418,13 +420,14 @@
       <a href="#" class="footer-decoration"><p class="footer">Copyright © 2009–2019 City Blog LLC.</p></a>
     </footer>
 
-   <!-- <div class="opacity-popup">
+    <!--<div class="opacity-popup">
     <div class="popup">
         <div class="background">
             
             <div class="content-center">
                 <div class="close">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441"><path fill="#fff" stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/></svg>
+                    <span class="visually-hidden">закрыть</span>
                 </div>
             <h2>ваш фидбек</h2>
             <div class="border-popup">     
@@ -457,7 +460,7 @@
         <label class="question question-margin" for="story">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
         <textarea id="story" name="story" rows="10" cols="40" placeholder="Может, больше рецептов?"></textarea>
         <div class="popup-button">
-        <a class="inshop" href="#"><button class="send">отправить</button></a>
+        <a class="inshop" href="#">отправить</a>
     </div>
             </div>
         </div>-->

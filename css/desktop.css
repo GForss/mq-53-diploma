@@ -25,12 +25,12 @@ body {
     margin: 0;
 }
 .header {
+    padding-top: 28px;
     position: relative;
     background-image: url("../img/banner-bg.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 450px;
 }
 .header::after {
     content: "";
@@ -45,10 +45,11 @@ body {
   }
 .logo {
     width: 180px ;
-    height: 40px;
     z-index: 1;
 }
 .list-menu {
+    display: flex;
+    align-items: center;
     z-index: 1;
 }
 .menu-list {
@@ -58,6 +59,7 @@ body {
     font-size: 13px;
     text-transform: uppercase;
     padding: 0;
+    margin: 0;
 }
 .menu-list-item:nth-child(n+2) {
     margin-left: 35px;
@@ -83,7 +85,6 @@ h1 {
 
 }
 .container-cap {
-    margin-top: 28px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -95,7 +96,7 @@ h1 {
 .title-h1 {
     width: 715px;
     min-width: none;
-    min-height: 380px;
+    margin: 5% 0;
     display: flex;
     align-items: center;
 }
@@ -122,7 +123,7 @@ h1 {
     background-color: #000000;
     background-size: 100% 100%;
     width: 24.4%;
-    height: 320px;
+    min-height: 320px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -153,11 +154,7 @@ h1 {
     bottom: 0;
     z-index: 0;
   }
-.teg {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: OpenSans-Bold, sans-serif; 
+.teg:not(:last-child) {
     margin-right: 20px;
 }  
 .teg:hover {
@@ -173,6 +170,12 @@ h1 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 16px 0 16px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: OpenSans-Bold, sans-serif; 
 }
 /**.teg:nth-child(n+2) {
     margin-left: 20px;
@@ -184,7 +187,6 @@ h1 {
     text-transform: uppercase;
     font-family: OpenSans-Bold, sans-serif; 
     z-index: 1;
-    padding: 0 40px;
     margin-bottom: 37px;
 }
 .teg-title {
@@ -192,6 +194,7 @@ h1 {
     position: relative;
     z-index: 1;
     margin: 0 18px 16px;
+    padding: 0 40px;
 }
 .link-title {
     text-decoration: none;
@@ -216,7 +219,6 @@ h1 {
 }
 .big-photo {
     max-width: 381px;
-    max-height: 295px;
 }
 .content {
     margin-left: 30px;
@@ -227,6 +229,8 @@ h1 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .title-news {
     margin-top: 15px;
@@ -310,17 +314,18 @@ aside {
     display: flex;
 }
 .field {
-    width: calc(100% - 18px);
+    /**width: calc(100% - 18px);**/
+    width: 85%;
     height: 46px;
     border: 0;
     background-color: #f4f7f6;
     font-family: OpenSans-Regular, sans-serif;
     font-size: 13px;
-    padding-left: 18px;
+    padding: 0 18px;
 }
 .field:focus {
     outline: none;
-    border-bottom: 1px solid #b59f5b;
+    border: 1px solid #b59f5b;
 }
 .button-search {
     width: 48px;
@@ -411,6 +416,7 @@ aside {
 }
 .list-of-topics {
     border-bottom: 1px solid #eeeeee;
+    margin-top: 25px;
 }
 .hover-color {
     color: #000000;
@@ -442,7 +448,6 @@ aside {
 }
 .product-cart {
     width: 300px;
-    min-height: 204px;
 }
 .photo-cart-one {
     background-image: url(../img/shop-item-desk1.jpg) ;
@@ -488,7 +493,19 @@ aside {
 }
 .inshop {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
+    width: 400px;
+    height: 48px;
+    background-color: #b59f5b;
+    border: 0;
+    font-family: OpenSans-Bold, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .shop {
     margin-right: 20px;
@@ -507,6 +524,7 @@ aside {
 }
 .shop:hover {
     cursor: pointer;
+    background-color: #323232;
 }
 .price {
     display: flex;
@@ -533,7 +551,6 @@ aside {
 .social-links {
     margin-top: 64px;
     width: 1200px;
-    height: 83px;
     background-color: #f4f7f6;
     display: flex;
     align-items: center;
@@ -560,7 +577,7 @@ aside {
 }
 .background {
     width: 450px;
-    height: 700px;
+    min-height: 700px;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -578,7 +595,7 @@ aside {
 }
 .opacity-popup::after {
     content: "";
-    position: absolute;
+    position: fixed;
     opacity: 0.60;
     background-color: #000000;
     top: 0;
@@ -607,7 +624,7 @@ h2 {
     border: 0;
     background-color: #f4f7f6;
     appearance: none;
-    background-image: url(/img/form-arrows.png);    
+    background-image: url(../img/form-arrows.png);    
     background-size: 10px;
     background-repeat: no-repeat;
     background-position: right 5px center; 
@@ -643,14 +660,14 @@ h2 {
     left: 0;
     height: 25px;
     width: 25px;
-    background: url(/img/form-empty-circle.jpg);
+    background: url(../img/form-empty-circle.jpg);
     background-size: 100%;
 }
 .radio-label:hover input ~ .checkmark {
     background-color: #ccc;
 }
 .radio-label input:checked ~ .checkmark {
-    background: url(/img/form-circle.jpg);
+    background: url(../img/form-circle.jpg);
     background-size: 100%;
 }
 textarea {
@@ -684,16 +701,7 @@ textarea {
     justify-content: center;
 }
 .send {
-    width: 400px;
-    height: 48px;
-    background-color: #b59f5b;
-    border: 0;
-    font-family: OpenSans-Bold, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
+    
 }
 .popup-button {
     display: flex;  
