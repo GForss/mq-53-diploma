@@ -162,6 +162,7 @@ h1 {
 }
 .teg-link {
     text-decoration: none;
+    font-family: OpenSans-Bold, sans-serif;
     color: #b59f5b;
     z-index: 1;
     position: relative;
@@ -200,8 +201,8 @@ h1 {
     text-decoration: none;
     color: #ffffff;
 }
-.title-trend:hover {
-    text-decoration: underline;
+.link-title:hover {
+    color: #b59f5b;
 }
 .main {
     margin-top: 60px;
@@ -216,9 +217,11 @@ h1 {
 .big-news {
     max-width: 760px;
     display: flex;
+    margin-top: 50px;
 }
 .big-photo {
-    max-width: 381px;
+    min-width: 381px;
+    max-height: 294px;
 }
 .content {
     margin-left: 30px;
@@ -286,6 +289,11 @@ aside {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .mini-posts::after {
+    content: " ";
+    position: absolute;
+    border-bottom: 2px solid #b59f5b;
   }
   .border {
     border: 2px solid #e1d9bd;
@@ -405,6 +413,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin: 0;
 }
 .link-list-teg {
     text-decoration: none;
@@ -564,6 +573,10 @@ aside {
 .social {
     display: flex;
     justify-content: center;
+}
+.list-of-links {
+    list-style-type: none;
+    display: flex;
 }
 .footer-decoration {
     text-decoration: none;
