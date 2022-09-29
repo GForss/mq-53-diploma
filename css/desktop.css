@@ -109,6 +109,16 @@ h1 {
     font-family: OpenSans-Bold, sans-serif; 
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.title::after {
+    content: " ";
+    position: absolute;
+    border-bottom: 2px solid #b59f5b;
+    top: 10px;
+    left: 47%;
+    width: 6%;
+    height: 100%;
 }
 .border-trend {
     border: 2px solid #e1d9bd;
@@ -289,11 +299,17 @@ aside {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    position: relative;
+
   }
   .mini-posts::after {
     content: " ";
     position: absolute;
     border-bottom: 2px solid #b59f5b;
+    top: 10px;
+    left: 35%;
+    width: 30%;
+    height: 100%;
   }
   .border {
     border: 2px solid #e1d9bd;
@@ -476,6 +492,7 @@ aside {
 .product-flex {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .description-product {
     outline: 3px solid #b59f5b;
