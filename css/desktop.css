@@ -377,6 +377,9 @@ aside {
 .title-mailing {
     margin-top: 60px;
 }
+.mailings {
+    margin-top: 30px;
+}
 .email-address {
     width: 250px;
     height: 48px;
